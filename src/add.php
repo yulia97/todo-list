@@ -1,4 +1,6 @@
 <div id="add">
+
+<!-- Форма с полями "Title", "Text" и кнопка  -->
     <form>
 	<div class="form-group">
 	    <label for="title">Title:</label>
