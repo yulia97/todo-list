@@ -6,7 +6,7 @@
 	$jdata = json_decode($data, true);
 	
 	foreach ($jdata['data'] as $enity){
-	    echo "<a href=\"#".$enity["id"]."\" class=\"list-group-item\">".$enity["title"]."</a>";
+	    echo "<a href=\"?id=".trim($enity["id"])."&page=show\" class=\"list-group-item\">".$enity["title"]."</a>";
 	}
 	?>
     </ul>
